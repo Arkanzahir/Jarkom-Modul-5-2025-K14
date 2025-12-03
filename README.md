@@ -1,4 +1,4 @@
-LAPORAN AKHIR PRAKTIKUM MODUL 5: THE SHADOW OF THE EAST
+## LAPORAN AKHIR PRAKTIKUM MODUL 5: THE SHADOW OF THE EAST
 
 Kelompok: K14
 Prefix IP Utama: 192.218.0.0/23
@@ -15,7 +15,7 @@ Pembagian alamat IP dilakukan menggunakan VLSM (Variable Length Subnet Mask) ber
 
 <img width="527" height="549" alt="Screenshot 2025-12-03 220600" src="https://github.com/user-attachments/assets/635ab794-ba30-445a-a12d-27c825cddc8b" />
 
-🟢 MISI 1: Routing & Konektivitas
+# MISI 1: Routing & Konektivitas
 
 Target: Membuktikan semua perangkat (Router & Client) sudah terhubung dan Client mendapatkan IP otomatis.
 
@@ -43,14 +43,14 @@ Pertanyaan Asisten: "Buktikan kalau routing dari Kiri (Elendil) bisa sampai ke K
 Perintah (di Node Elendil):
 
 ping [IP_GILGALAD]
-# Contoh: ping 192.218.1.11
+Contoh: ping 192.218.1.11
 
 
 Hasil: Harus Reply (TTL=...).
 
 <img width="721" height="226" alt="Screenshot 2025-12-03 195029" src="https://github.com/user-attachments/assets/bd5e9af9-916a-4dbe-82a5-8e8b438cfa0f" />
 
-🟠 MISI 2: Security Rules (Firewall)
+# MISI 2: Security Rules (Firewall)
 
 Target: Membuktikan aturan keamanan IPTables berfungsi.
 
@@ -87,7 +87,7 @@ Node: Elendil
 
 Perintah:
 
-# Pastikan netcat sudah diinstall di Elendil
+Pastikan netcat sudah diinstall di Elendil
 nc -zv 192.218.1.203 53
 
 <img width="666" height="43" alt="Screenshot 2025-12-03 211844" src="https://github.com/user-attachments/assets/0e6aed15-e3f4-40fe-96ab-e829f201c55d" />
@@ -195,8 +195,7 @@ nc -l -p 80
 
 
 <img width="474" height="58" alt="Screenshot 2025-12-03 214615" src="https://github.com/user-attachments/assets/d3836cab-03d9-4e73-9b38-2d7ba6c67f81" />
-
-🔴 MISI 3: Isolasi Sang Nazgûl (Khamul)
+# MISI 3: Isolasi Sang Nazgûl (Khamul)
 
 Tujuan: Membuktikan Khamul terisolasi total dari jaringan.
 
@@ -207,7 +206,7 @@ Node: Khamul
 Perintah:
 
 ping 192.218.0.10
-# (Ping ke Elendil)
+(Ping ke Elendil)
 
 <img width="466" height="70" alt="Screenshot 2025-12-03 215624" src="https://github.com/user-attachments/assets/ae6f5886-ae28-461f-982d-7e43e6bfbca4" />
 
