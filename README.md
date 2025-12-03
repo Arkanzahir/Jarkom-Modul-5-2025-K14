@@ -129,6 +129,7 @@ Hasil: Gagal / Timeout (karena bukan hari Sabtu/Minggu).
 Cara Membuktikan Sukses (Opsional saat demo): Minta izin asisten ubah tanggal di IronHills.
 
 Di IronHills: date -s "2025-12-06 12:00:00" (Sabtu).
+
 <img width="686" height="65" alt="Screenshot 2025-12-03 212010" src="https://github.com/user-attachments/assets/136c8dc4-06db-4fa9-99c7-c3394fb66890" />
 
 
@@ -144,6 +145,7 @@ Skenario: Elendil (Manusia) hanya boleh jam 17.00 - 23.00.
 Test Gagal (Pagi Hari):
 
 Di Palantir: date -s "2025-12-03 08:00:00"
+
 <img width="640" height="61" alt="Screenshot 2025-12-03 212053" src="https://github.com/user-attachments/assets/60db9075-bfa5-4bc5-9b82-10b34c821a35" />
 
 <img width="474" height="49" alt="Screenshot 2025-12-03 212109" src="https://github.com/user-attachments/assets/65377609-7234-4262-9a90-3fde5208dd1f" />
@@ -199,6 +201,7 @@ nc -l -p 80
 
 
 <img width="474" height="58" alt="Screenshot 2025-12-03 214615" src="https://github.com/user-attachments/assets/d3836cab-03d9-4e73-9b38-2d7ba6c67f81" />
+
 # MISI 3: Isolasi Sang Nazgûl (Khamul)
 
 Tujuan: Membuktikan Khamul terisolasi total dari jaringan.
