@@ -162,7 +162,7 @@ Di Palantir: date -s "2025-12-03 20:00:00"
 
 Dari Elendil: curl 192.218.1.218 -> Hasil: "Welcome to Palantir".
 
-Soal 6: Port Scan Protection
+Soal 6: Port Scan Protection (Revisi)
 
 Pertanyaan: "Coba scan Palantir, pastikan IP penyerang di-banned."
 
@@ -183,7 +183,7 @@ ping 192.218.1.218
 
 Hasil: Ping akan RTO (Request Timeout) karena IP Elendil sudah masuk blacklist sementara.
 
-Soal 7: IronHills Connection Limit
+Soal 7: IronHills Connection Limit (Revisi)
 
 Node: Elendil
 
@@ -193,7 +193,7 @@ ab -n 100 -c 10 [http://192.218.1.238/](http://192.218.1.238/)
 
 <img width="788" height="125" alt="Screenshot 2025-12-03 214010" src="https://github.com/user-attachments/assets/0f319fb9-2c41-4904-ab93-d3c9678e41fd" />
 
-Soal 8: Redirect Traffic (Vilya -> Khamul belok ke IronHills)
+Soal 8: Redirect Traffic (Revisi)
 
 Persiapan: Buka console IronHills, jalankan listener:
 
