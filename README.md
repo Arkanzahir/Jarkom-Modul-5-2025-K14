@@ -104,6 +104,8 @@ Node: Vilya
 Perintah:
 
 nc -zv 192.218.1.203 53
+
+
 <img width="640" height="67" alt="Screenshot 2025-12-03 202648" src="https://github.com/user-attachments/assets/bdc8e845-3eb3-4adc-b7f7-1122c56754d7" />
 
 
