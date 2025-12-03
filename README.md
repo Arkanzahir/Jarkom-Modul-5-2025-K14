@@ -33,6 +33,8 @@ Verifikasi:
 eth0 harus punya IP.
 
 Elendil: 192.218.0.x
+
+
 <img width="802" height="369" alt="Screenshot 2025-12-03 221232" src="https://github.com/user-attachments/assets/03d15f9a-778f-4029-87d3-fed0eb1f09fd" />
 
 
